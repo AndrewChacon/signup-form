@@ -134,6 +134,8 @@ body {
 .form__legal {
   color: #b9b6d3;
   font-size: 12px;
+  width: 85%;
+  margin: 0 auto;
 }
 
 .form__highlight {
