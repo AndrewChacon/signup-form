@@ -25,8 +25,8 @@ body {
 .container {
     text-align: center;
     width: 90%;
-    margin-top: 80px;
-    margin-bottom: 70px;
+    margin-top: 100px;
+    margin-bottom: 80px;
 }
 
 .header {
@@ -63,12 +63,21 @@ body {
         width: 100%;
         font-size: 14px;
         margin-bottom: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        color: hsl(0, 0%, 47%);
         border-radius: 6px;
         display: block;
+        -webkit-appearance: none;
+        -moz-appearance: none;
         border: 1px solid hsla(251, 15%, 79%, 0.664);
         &::placeholder {
             color: hsl(0, 0%, 47%);
             font-weight: bold;
+            font-family: 'Poppins', sans-serif;
+        }
+        &:focus {
+            outline: none;
         }
 
     }
@@ -78,7 +87,7 @@ body {
         background-color: hsl(154, 59%, 51%);
         width: 100%;
         font-weight: 600;
-        color: #eee;
+        color: #fff;
         text-transform: uppercase;
         border: none;
         padding: 20px 0;

@@ -28,8 +28,8 @@ body {
 .container {
   text-align: center;
   width: 90%;
-  margin-top: 80px;
-  margin-bottom: 70px;
+  margin-top: 100px;
+  margin-bottom: 80px;
 }
 
 .header {
@@ -73,29 +73,42 @@ body {
   width: 100%;
   font-size: 14px;
   margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #787878;
   border-radius: 6px;
   display: block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   border: 1px solid rgba(196, 193, 209, 0.664);
 }
 
 .form__input::-webkit-input-placeholder {
   color: #787878;
   font-weight: bold;
+  font-family: 'Poppins', sans-serif;
 }
 
 .form__input:-ms-input-placeholder {
   color: #787878;
   font-weight: bold;
+  font-family: 'Poppins', sans-serif;
 }
 
 .form__input::-ms-input-placeholder {
   color: #787878;
   font-weight: bold;
+  font-family: 'Poppins', sans-serif;
 }
 
 .form__input::placeholder {
   color: #787878;
   font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form__input:focus {
+  outline: none;
 }
 
 .form__submit {
@@ -105,7 +118,7 @@ body {
   background-color: #38cc8c;
   width: 100%;
   font-weight: 600;
-  color: #eee;
+  color: #fff;
   text-transform: uppercase;
   border: none;
   padding: 20px 0;
