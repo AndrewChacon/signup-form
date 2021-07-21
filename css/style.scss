@@ -1,0 +1,100 @@
+// - Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+// - Weights: 400, 500, 600, 700
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../images/bg-intro-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsl(0, 100%, 74%);
+    min-height: 100vh;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+.header {
+    margin-bottom: 50px;
+    &__title {
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    &__text {
+        color: #ddd;
+    }
+}
+
+.tab {
+    padding: 20px 80px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    background-color: hsl(248, 32%, 49%);
+    box-shadow: 0px 8px 1px rgba(0, 0, 0, 0.2);
+    color: #ddd;
+    &__highlight {
+        font-weight: bold;
+        color: #fff;
+    }
+}
+
+.form {
+    padding: 25px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0px 8px 1px rgba(0, 0, 0, 0.2);
+    &__input {
+        padding: 20px 15px;
+        width: 100%;
+        font-size: 14px;
+        margin-bottom: 20px;
+        border-radius: 6px;
+        display: block;
+        border: 1px solid hsla(251, 15%, 79%, 0.664);
+        &::placeholder {
+            color: hsl(0, 0%, 47%);
+            font-weight: bold;
+        }
+
+    }
+    &__submit {
+        border-radius: 6px;
+        box-shadow: 0px 5px 1px hsl(154, 100%, 34%);
+        background-color: hsl(154, 59%, 51%);
+        width: 100%;
+        font-weight: 600;
+        color: #eee;
+        text-transform: uppercase;
+        border: none;
+        padding: 20px 0;
+        letter-spacing: 1px;
+        font-size: 14px;
+        margin-bottom: 20px;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+    &__legal {
+        color: hsl(246, 25%, 77%);
+        font-size: 12px;
+    }
+    &__highlight {
+        color: hsl(0, 100%, 74%);
+        font-weight: bold;
+    }
+}

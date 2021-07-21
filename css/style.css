@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(../images/bg-intro-mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ff7a7a;
+  min-height: 100vh;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  text-align: center;
+  width: 90%;
+  margin-top: 80px;
+  margin-bottom: 70px;
+}
+
+.header {
+  margin-bottom: 50px;
+}
+
+.header__title {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.header__text {
+  color: #ddd;
+}
+
+.tab {
+  padding: 20px 80px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  background-color: #6055a5;
+  -webkit-box-shadow: 0px 8px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 1px rgba(0, 0, 0, 0.2);
+  color: #ddd;
+}
+
+.tab__highlight {
+  font-weight: bold;
+  color: #fff;
+}
+
+.form {
+  padding: 25px;
+  border-radius: 6px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 8px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 1px rgba(0, 0, 0, 0.2);
+}
+
+.form__input {
+  padding: 20px 15px;
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  display: block;
+  border: 1px solid rgba(196, 193, 209, 0.664);
+}
+
+.form__input::-webkit-input-placeholder {
+  color: #787878;
+  font-weight: bold;
+}
+
+.form__input:-ms-input-placeholder {
+  color: #787878;
+  font-weight: bold;
+}
+
+.form__input::-ms-input-placeholder {
+  color: #787878;
+  font-weight: bold;
+}
+
+.form__input::placeholder {
+  color: #787878;
+  font-weight: bold;
+}
+
+.form__submit {
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 5px 1px #00ad62;
+          box-shadow: 0px 5px 1px #00ad62;
+  background-color: #38cc8c;
+  width: 100%;
+  font-weight: 600;
+  color: #eee;
+  text-transform: uppercase;
+  border: none;
+  padding: 20px 0;
+  letter-spacing: 1px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.form__submit:hover {
+  opacity: 0.8;
+}
+
+.form__legal {
+  color: #b9b6d3;
+  font-size: 12px;
+}
+
+.form__highlight {
+  color: #ff7a7a;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
